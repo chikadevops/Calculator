@@ -45,7 +45,7 @@ while true; do
 
     # Invalid input option
     else
-        echo "" # Insert a blank line
+        echo "" # Insert a blank line 
         echo "Your input is invalid. Enter 'f' for full or 'p' for partial."
         read -p "Do you want a full table or a partial table? (Enter 'f' for full, 'p' for partial): " str
     fi
